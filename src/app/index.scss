@@ -26,11 +26,12 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
     width: 50px;
   }
 }
-
-.main-glyph {
-	font-size: 20em;
+.parent {
+	// position: absolute;
 }
-
+i {
+	font-size: 25em;
+}
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically
