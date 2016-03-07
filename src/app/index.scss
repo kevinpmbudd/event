@@ -26,11 +26,26 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
     width: 50px;
   }
 }
-.parent {
-	// position: absolute;
+.big-logo {
+  // min-height: 100%;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
 }
 i {
-	font-size: 25em;
+  font-size: 16em;
+  color: white;
+  @media (min-width: 768px) {
+    color: red;
+  }
+  @media (min-width: 992px) {
+    font-size: 20em;
+    color: orange;
+  }
+  @media (min-width: 1200px) {
+    font-size: 24em;
+    color: yellow;
+  }
 }
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
