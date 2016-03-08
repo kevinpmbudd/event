@@ -26,6 +26,10 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
     width: 50px;
   }
 }
+body {
+  background: url(../assets/images/meeting.png) no-repeat center center fixed;
+  background-size: cover;
+}
 .big-logo {
   // min-height: 100%;
   min-height: 50vh;
